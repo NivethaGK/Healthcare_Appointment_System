@@ -5,7 +5,7 @@ The system allows users to create, view, edit, and delete patient appointments t
 
 ---
 
-## 🚀 Features
+## Features
 - View all appointments
 - Create new appointments
 - Edit existing appointments
@@ -15,7 +15,7 @@ The system allows users to create, view, edit, and delete patient appointments t
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 - ASP.NET Core MVC
 - C#
 - Razor Views
@@ -24,7 +24,7 @@ The system allows users to create, view, edit, and delete patient appointments t
 
 ---
 
-## ▶️ How to Run the Project
+## How to Run the Project
 1. Open the solution in **Visual Studio**
 2. Restore NuGet packages (if prompted)
 3. Run the project
@@ -36,7 +36,7 @@ http://localhost:5009/appointments
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 - Controllers – Handles request logic
 - Models – Defines data structures
 - Views – Razor UI pages
@@ -44,7 +44,7 @@ http://localhost:5009/appointments
 
 ---
 
-## 🧠 Learning Outcomes
+## Learning Outcomes
 - Understood ASP.NET Core MVC architecture
 - Implemented full CRUD operations
 - Worked with routing and Razor syntax
@@ -53,7 +53,7 @@ http://localhost:5009/appointments
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 - Database integration using Entity Framework Core
 - Patient and Doctor modules
 - Authentication and authorization
