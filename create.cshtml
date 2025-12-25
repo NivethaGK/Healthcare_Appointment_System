@@ -1,0 +1,23 @@
+@model HealthcareAppointmentSystem.Models.Appointment
+
+<h2>Create Appointment</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label>Patient Name</label>
+        <input asp-for="PatientName" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Doctor Name</label>
+        <input asp-for="DoctorName" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Appointment Date</label>
+        <input asp-for="AppointmentDate" type="date" class="form-control" />
+    </div>
+
+    <br />
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

@@ -1,0 +1,25 @@
+@model HealthcareAppointmentSystem.Models.Appointment
+
+<h2>Edit Appointment</h2>
+
+<form asp-action="Edit" method="post">
+    <input asp-for="Id" type="hidden" />
+
+    <div class="form-group">
+        <label>Patient Name</label>
+        <input asp-for="PatientName" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Doctor Name</label>
+        <input asp-for="DoctorName" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Appointment Date</label>
+        <input asp-for="AppointmentDate" type="date" class="form-control" />
+    </div>
+
+    <br />
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>

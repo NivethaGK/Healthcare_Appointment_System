@@ -1,0 +1,24 @@
+@model IEnumerable<HealthcareAppointmentSystem.Models.Patient>
+
+<h2>Patients List</h2>
+
+<a asp-action="Create">Add New Patient</a>
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Phone</th>
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>@item.Name</td>
+        <td>@item.Age</td>
+        <td>@item.Gender</td>
+        <td>@item.Phone</td>
+    </tr>
+}
+</table>
