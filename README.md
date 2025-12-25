@@ -60,5 +60,5 @@ http://localhost:5009/appointments
 
 ---
 
-## 👩‍💻 Author
+## Author
 Nivetha Sri G
